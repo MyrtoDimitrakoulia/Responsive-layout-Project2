@@ -1,0 +1,104 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  color: #808080;
+  background: #f2f2f2;
+}
+
+header {
+  padding-bottom: 30px;
+}
+
+h4 {
+  color: #323232;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #323232;
+  font-weight: 400;
+}
+
+p {
+  max-width: 90%;
+  padding-left: 3em;
+}
+
+footer {
+  padding-top: 20px;
+  border-top: 1px solid grey;
+  width: 90%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav {
+  background-color: white;
+  text-transform:uppercase;
+}
+
+.nav li {
+  list-style: none;
+  padding-bottom: 40px;
+  border: 3px solid blue;
+  margin-bottom: 10px;
+}
+
+.marketing-page,
+.search-page,
+.travel-app,
+.favorite-spots,
+.photo-gallery,
+.calculator {
+  width: 90%;
+  height: auto;
+  left: 0;
+  right:0;
+}
+
+.phone,
+.email {
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.student-name {
+  float: left;
+}
+
+.backtotop {
+  float: right;
+}
+
+#portfolio {
+  background: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#contact {
+  padding-top: 40px;
+}
+
+#contact li {
+  list-style: none;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
