@@ -3,17 +3,21 @@
   box-sizing: border-box;
 }
 
+header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+title {
+ text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
   font-family: 'Barlow', sans-serif;
   color: #808080;
   background: #f2f2f2;
-}
-
-header {
-  padding-bottom: 30px;
 }
 
 h4 {
@@ -36,19 +40,30 @@ p {
 footer {
   padding-top: 20px;
   border-top: 1px solid grey;
-  width: 90%;
+  width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #323232;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
 }
 
 .nav {
-  background-color: white;
   text-transform:uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .nav li {
   list-style: none;
-  padding-bottom: 40px;
-  border: 3px solid blue;
-  margin-bottom: 10px;
+  background-color: white;
+  padding: 15px;
+  margin: 5px;
 }
 
 .marketing-page,
@@ -70,25 +85,41 @@ footer {
 }
 
 .student-name {
-  float: left;
+  text-align: left;
 }
 
 .backtotop {
-  float: right;
+  text-align: right;
+}
+
+.footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-nav li {
+  list-style: none;
+  display: inline-block;
 }
 
 #portfolio {
+  text-align: center;
   background: white;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 #contact {
+  text-align: center;
   padding-top: 40px;
 }
 
 #contact li {
   list-style: none;
+  padding-left: 0;
 }
 
 /* Media queries */
