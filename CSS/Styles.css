@@ -17,7 +17,7 @@ body {
   padding: 0;
   font-family: 'Barlow', sans-serif;
   color: #808080;
-  background: #f2f2f2;
+  background: #FFFFFF;
 }
 
 h4 {
@@ -124,9 +124,60 @@ a:hover {
 
 /* Media queries */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
 
+  body {
+    background-color: white;
+  }
+
+.nav li {
+  display: flex;
+  flex-direction: row;
+  background-color: #white;
 }
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.profile-image {
+  width: 40%;
+}
+
+.bio {
+  width: 60%;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.portfolio-1,
+.portfolio-3,
+.portfolio-5 {
+  float:left;
+  width:45%;
+  margin: 0;
+}
+
+.portfolio-2,
+.portfolio-4,
+.portfolio-6 {
+  float:right;
+  width: 45%;
+  margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 
 @media screen and (min-width: 1024px) {
 
