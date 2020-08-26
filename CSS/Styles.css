@@ -23,7 +23,7 @@ body {
 p {
   max-width: 90%;
   align-content: center;
-  padding-left: 1.5em;
+  padding-left: 1em;
 }
 
 h4 {
@@ -137,7 +137,7 @@ a:hover {
   .nav li {
     display: flex;
     flex-direction: row;
-    background-color: #white;
+    background-color: #FFFFFF;
   }
 
   .nav {
@@ -206,7 +206,7 @@ a:hover {
   }
 
   #contact {
-    padding-left: 3em;
+    padding-left: 1.5em;
   }
 }
 
@@ -231,3 +231,11 @@ a:hover {
     padding-right: 2em;
     max-width: 1200px;
   }
+
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1.1em;
+  }
+}
