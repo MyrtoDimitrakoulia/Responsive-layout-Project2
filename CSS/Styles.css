@@ -182,9 +182,6 @@ a:hover {
   .footernav li {
     padding-left: 40px;
   }
-}
-
-@media screen and (min-width: 768px) and (max-width:1024px) {
 
   .portfolio-1,
   .portfolio-3,
