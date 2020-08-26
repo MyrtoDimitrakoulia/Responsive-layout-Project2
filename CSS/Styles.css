@@ -112,10 +112,6 @@ a:hover {
     clear:both;
   }
 
-/* Media queries */
-
-@media screen and (max-width: 768px) {
-
   .footer1 {
       display: flex;
       flex-direction: row;
@@ -131,7 +127,8 @@ a:hover {
   .footer2 {
     display:none;
   }
-}
+
+/* Media queries */
 
 @media screen and (min-width: 768px) {
 
