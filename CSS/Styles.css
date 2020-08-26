@@ -169,12 +169,17 @@ a:hover {
     list-style: none;
   }
 
-  .footer2 {
+  .footer2,
+  .footernav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footernav li {
+    padding-left: 40px;
   }
 }
 
