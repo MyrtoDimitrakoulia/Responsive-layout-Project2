@@ -85,21 +85,6 @@ a:hover {
   padding-left: 15px;
 }
 
-.footer nav {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.footer-nav li {
-  list-style: none;
-  display: inline-table;
-  justify-content: space-between;
-}
-
-#backtotop {
-  padding-left: 5em;
-}
-
 #portfolio {
   text-align: center;
   background: white;
@@ -127,6 +112,25 @@ a:hover {
   }
 
 /* Media queries */
+
+@media screen and (max-width: 768px) {
+
+  .footer1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .footer1 li {
+    list-style: none;
+  }
+
+  .footer2 {
+    display:none;
+  }
+}
 
 @media screen and (min-width: 768px) {
 
@@ -156,6 +160,22 @@ a:hover {
     padding-right: 20px;
     text-align: left;
   }
+
+  .footer1 {
+    display:none;
+  }
+
+  .footer2 li {
+    list-style: none;
+  }
+
+  .footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -167,6 +187,7 @@ a:hover {
     width:50%;
     margin: 0;
     padding-left: 2em;
+    height: 450px;
   }
 
   .portfolio-2,
@@ -176,6 +197,7 @@ a:hover {
     width: 50%;
     margin: 0;
     padding-right: 2em;
+    height: 450px;
   }
 
   #contact {
@@ -196,6 +218,7 @@ a:hover {
     width:33%;
     margin: 0;
     padding-left: 2em;
+    height: 400px;
   }
 
   #contact {
